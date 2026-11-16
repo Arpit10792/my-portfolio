@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arpit Aggarwal | Computer Science Student & Developer</title>
+  <meta name="description" content="Portfolio of Arpit Aggarwal, a B.Tech Computer Science student at South Asian University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#home" class="logo">Arpit Aggarwal<span class="logo-dot">.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Switch to light mode">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path class="icon-moon" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/><g class="icon-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <canvas class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-greeting">Hi, I'm Arpit Aggarwal</p>
+          <h1>Computer Science Student & Aspiring Developer</h1>
+          <p class="hero-lead">I'm fascinated by how code turns ideas into things people use. I enjoy building practical web projects, competing in hackathons and learning something new with every one.</p>
+          <p class="hero-typed" aria-label="I build web apps, games in Java and tools that solve problems">I build <span id="typed"></span><i class="caret"></i></p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <!-- Developer-themed illustration: a code window. Edit the lines freely. -->
+        <div class="code-window" aria-hidden="true">
+          <div class="code-bar"><i></i><i></i><i></i><span>about-me.js</span></div>
+          <pre class="code-body"><code><span class="c-k">const</span> developer = {
+  name: <span class="c-s">"Arpit Aggarwal"</span>,
+  studying: <span class="c-s">"Computer Science"</span>,
+  university: <span class="c-s">"South Asian University"</span>,
+  languages: [<span class="c-s">"Java"</span>, <span class="c-s">"C"</span>, <span class="c-s">"Python"</span>, <span class="c-s">"JavaScript"</span>],
+  hackathons: <span class="c-k">1</span>,
+  currentlyLearning: <span class="c-s">"something new"</span>,
+  openToWork: <span class="c-k">true</span>
+};<span class="cursor"></span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="reveal">About me</h2>
+        <div class="about-grid reveal">
+          <div class="about-story">
+            <p class="about-lead">I turn problems into programs, and I'm just getting started.</p>
+            <p>I'm a B.Tech Computer Science Engineering student at South Asian University, starting in 2026. I'm passionate about computer science because it lets me take an idea and make it work, and I'm always keen to learn new things.</p>
+            <p>I learn by building: a fully working attendance tracker for the web, a Flappy Bird game in Java, and this portfolio. I've also taken part in a national-level hackathon, which taught me to build fast and work under pressure.</p>
+            <dl class="stats">
+              <div class="stat"><dt>Projects built</dt><dd data-count="3">0</dd></div>
+              <div class="stat"><dt>National-level hackathon</dt><dd data-count="1">0</dd></div>
+              <div class="stat"><dt>Technologies used</dt><dd data-count="7">0</dd></div>
+            </dl>
+          </div>
+          <aside class="about-side">
+            <div class="panel">
+              <h3>Quick facts</h3>
+              <ul class="facts">
+                <li><span>Studying</span>B.Tech, Computer Science Engineering</li>
+                <li><span>University</span>South Asian University</li>
+                <li><span>Schooling</span>NK Bagrodia Public School, Rohini (CBSE)</li>
+                <li><span>Languages</span>Java, C, Python, JavaScript</li>
+                <li><span>Based in</span>Delhi, India</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>What I'm working towards</h3>
+              <ul class="goals">
+                <li>Master data structures and algorithms</li>
+                <li>Learn backend development</li>
+                <li>Contribute to an open-source project</li>
+                <li>Join more hackathons and build with a team</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+
+        <!-- ===== EDUCATION (inside About) ===== -->
+        <div class="edu reveal" id="education">
+          <h3 class="edu-title">Education</h3>
+          <ol class="edu-timeline">
+            <li class="edu-item">
+              <span class="edu-year">2026 – Present</span>
+              <div class="edu-card">
+                <h4>South Asian University</h4>
+                <p class="edu-degree">B.Tech in Computer Science Engineering</p>
+                <p>Where I'm building my foundation in programming, problem-solving and software development. Edit this line to add your focus areas or courses.</p>
+                <ul class="tags"><li>Computer Science</li><li>Engineering</li><li>Ongoing</li></ul>
+              </div>
+            </li>
+            <li class="edu-item">
+              <span class="edu-year">Up to 20XX</span>
+              <div class="edu-card">
+                <h4>NK Bagrodia Public School</h4>
+                <p class="edu-degree">Sector 9, Rohini, Delhi · CBSE Board</p>
+                <p>Completed my schooling here under the CBSE board. Edit this line to add your Class X / XII details or favourite subjects.</p>
+                <ul class="tags"><li>CBSE</li><li>Schooling</li></ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="reveal">Skills</h2>
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="reveal">Projects</h2>
+        <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <h2>Get in touch</h2>
+          <p>Have a question, an opportunity or just want to say hello? Reach me through any of these.</p>
+          <ul class="contact-list">
+            <li><a href="mailto:arpitaggarwal5695@gmail.com">arpitaggarwal5695@gmail.com</a> <button type="button" class="copy-btn" id="copy-email">Copy</button></li>
+            <li><a href="https://github.com/Arpit10792" target="_blank" rel="noopener">github.com/Arpit10792</a></li>
+            <li><a href="https://linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener">linkedin.com/in/your-linkedin-username</a></li>
+          </ul>
+        </div>
+
+        <!-- No backend is connected: this form only validates, then opens your email app (mailto). -->
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Open in email app</button>
+          <p class="form-note" id="form-note" role="status">This form doesn't send messages by itself. It opens your email app with the message filled in.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Arpit Aggarwal</strong>
+        <p>&copy; <span id="year">2026</span> Arpit Aggarwal. All rights reserved.</p>
+        <p>Designed &amp; Developed by Me</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://github.com/Arpit10792" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:arpitaggarwal5695@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <button class="to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
